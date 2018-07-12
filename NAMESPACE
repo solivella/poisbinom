@@ -1,0 +1,6 @@
+useDynLib(poisbinom, .registration=TRUE)
+export(dpoisbinom)
+export(qpoisbinom)
+export(ppoisbinom)
+export(rpoisbinom)
+importFrom(Rcpp, evalCpp)
