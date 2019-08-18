@@ -11,3 +11,8 @@ r:
 os:
   - linux
 cache: packages
+addons:
+  apt:
+    packages:
+        libfftw3-dev
+	
