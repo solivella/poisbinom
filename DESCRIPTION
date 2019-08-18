@@ -8,7 +8,7 @@ Author: Santiago Olivella [aut, cre],
 Maintainer: Santiago Olivella <olivella@unc.edu>
 Description: Provides the probability, distribution, and quantile functions and random number generator for the Poisson-Binomial distribution.  This package relies on FFTW to implement the discrete Fourier transform, so that it is much faster than the existing implementation of the same algorithm in R.
 License: GPL (>= 2)
-Imports: Rcpp (>= 0.12.10)
+Imports: Rcpp (>= 0.12.10), fftw (>=1.0-5)
 SystemRequirements: fftw3 (>= 3)
 LinkingTo: Rcpp
 NeedsCompilation: yes
