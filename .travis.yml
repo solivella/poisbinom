@@ -1,0 +1,13 @@
+language: R
+warnings_are_errors: true
+env:
+  global:
+    - R_BUILD_ARGS="--no-build-vignettes --no-manual"
+    - R_CHECK_ARGS="--no-build-vignettes --no-manual --timings" 
+    - _R_CHECK_TIMINGS_="0"
+r:
+  - release
+  - devel
+os:
+  - linux
+cache: packages
