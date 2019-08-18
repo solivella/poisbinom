@@ -1,13 +1,14 @@
 Package: poisbinom
 Type: Package
 Title: A Faster Implementation of the Poisson-Binomial Distribution
-Version: 1.0.1
-Date: 2017-05-16
+Version: 1.0.2
+Date: 2019-08-18
 Author: Santiago Olivella [aut, cre],
 	Yuki Shiraito [aut, cre]
 Maintainer: Santiago Olivella <olivella@unc.edu>
 Description: Provides the probability, distribution, and quantile functions and random number generator for the Poisson-Binomial distribution.  This package relies on FFTW to implement the discrete Fourier transform, so that it is much faster than the existing implementation of the same algorithm in R.
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.12.10)
-SystemRequirements: fftw (>= 3)
+SystemRequirements: fftw3 (>= 3)
 LinkingTo: Rcpp
+NeedsCompilation: yes
